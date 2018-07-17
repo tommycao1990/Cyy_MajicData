@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  MajicData
+//
+//  Created by Tesla_Chen on 2017/11/22.
+//  Copyright © 2017年 zhejiangzhiyang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Common_Test.h"//环境
+
+#import "Constant.h"//常量
+
+#import "MDVender.h"//第三方库
+
+#import "MDNemoHelper.h"//自定义方法
+
+#import "MDUserTool.h"//用户直接操作的工具
+
+#import "LinkUrl.h"   //网址链接
+
+#endif /* PrefixHeader_pch */
